@@ -1,0 +1,3 @@
+source "https://stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/"
+
+gem "stitchfix-env_management"

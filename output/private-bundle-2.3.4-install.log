@@ -1,0 +1,112 @@
+Running `bundle install --verbose` with bundler 2.3.4
+Found changes from the lockfile, re-resolving dependencies because the dependencies in your gemfile changed, you added a new platform to your gemfile
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/versions
+HTTP 404 Not Found https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/versions
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies
+Fetching gem metadata from https://stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/
+Query List: ["stitchfix-env_management"]
+Query Gemcutter Dependency Endpoint API: stitchfix-env_management
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=stitchfix-env_management
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=stitchfix-env_management
+Query List: ["dotenv-rails"]
+Query Gemcutter Dependency Endpoint API: dotenv-rails
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=dotenv-rails
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=dotenv-rails
+Query List: ["dotenv", "railties"]
+Query Gemcutter Dependency Endpoint API: dotenv,railties
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=dotenv%2Crailties
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=dotenv%2Crailties
+Query List: ["dotenv-deployment", "zeitwerk", "method_source", "thor", "rake", "actionpack", "activesupport", "rack-ssl", "rdoc"]
+Query Gemcutter Dependency Endpoint API: dotenv-deployment,zeitwerk,method_source,thor,rake,actionpack,activesupport,rack-ssl,rdoc
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=actionpack%2Cactivesupport%2Cdotenv-deployment%2Cmethod_source%2Crack-ssl%2Crake%2Crdoc%2Cthor%2Czeitwerk
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=actionpack%2Cactivesupport%2Cdotenv-deployment%2Cmethod_source%2Crack-ssl%2Crake%2Crdoc%2Cthor%2Czeitwerk
+Query List: ["actionview", "rails-dom-testing", "rails-html-sanitizer", "rack-test", "rack", "builder", "erubis", "activemodel", "rack-cache", "journey", "sprockets", "i18n", "rack-mount", "tzinfo", "rails-deprecated_sanitizer", "minitest", "concurrent-ruby", "memcache-client", "json", "thread_safe", "multi_json", "ruby_parser", "hoe", "psych"]
+Query Gemcutter Dependency Endpoint API: actionview,rails-dom-testing,rails-html-sanitizer,rack-test,rack,builder,erubis,activemodel,rack-cache,journey,sprockets,i18n,rack-mount,tzinfo,rails-deprecated_sanitizer,minitest,concurrent-ruby,memcache-client,json,thread_safe,multi_json,ruby_parser,hoe,psych
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=actionview%2Cactivemodel%2Cbuilder%2Cconcurrent-ruby%2Cerubis%2Choe%2Ci18n%2Cjourney%2Cjson%2Cmemcache-client%2Cminitest%2Cmulti_json%2Cpsych%2Crack%2Crack-cache%2Crack-mount%2Crack-test%2Crails-deprecated_sanitizer%2Crails-dom-testing%2Crails-html-sanitizer%2Cruby_parser%2Csprockets%2Cthread_safe%2Ctzinfo
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=actionview%2Cactivemodel%2Cbuilder%2Cconcurrent-ruby%2Cerubis%2Choe%2Ci18n%2Cjourney%2Cjson%2Cmemcache-client%2Cminitest%2Cmulti_json%2Cpsych%2Crack%2Crack-cache%2Crack-mount%2Crack-test%2Crails-deprecated_sanitizer%2Crails-dom-testing%2Crails-html-sanitizer%2Cruby_parser%2Csprockets%2Cthread_safe%2Ctzinfo
+Query List: ["erubi", "bcrypt-ruby", "functional-ruby", "ref", "abstract", "rubyforge", "gemcutter", "RubyInline", "ZenTest", "jar-dependencies", "stringio", "multimap", "nokogiri", "loofah", "sexp_processor", "ParseTree", "hike", "tilt", "atomic"]
+Query Gemcutter Dependency Endpoint API: erubi,bcrypt-ruby,functional-ruby,ref,abstract,rubyforge,gemcutter,RubyInline,ZenTest,jar-dependencies,stringio,multimap,nokogiri,loofah,sexp_processor,ParseTree,hike,tilt,atomic
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=ParseTree%2CRubyInline%2CZenTest%2Cabstract%2Catomic%2Cbcrypt-ruby%2Cerubi%2Cfunctional-ruby%2Cgemcutter%2Chike%2Cjar-dependencies%2Cloofah%2Cmultimap%2Cnokogiri%2Cref%2Crubyforge%2Csexp_processor%2Cstringio%2Ctilt
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=ParseTree%2CRubyInline%2CZenTest%2Cabstract%2Catomic%2Cbcrypt-ruby%2Cerubi%2Cfunctional-ruby%2Cgemcutter%2Chike%2Cjar-dependencies%2Cloofah%2Cmultimap%2Cnokogiri%2Cref%2Crubyforge%2Csexp_processor%2Cstringio%2Ctilt
+Query List: ["SexpProcessor", "bcrypt", "net-scp", "json_pure", "ruby-maven", "crass", "racc", "mini_portile2", "mini_portile", "weakling", "pkg-config"]
+Query Gemcutter Dependency Endpoint API: SexpProcessor,bcrypt,net-scp,json_pure,ruby-maven,crass,racc,mini_portile2,mini_portile,weakling,pkg-config
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=SexpProcessor%2Cbcrypt%2Ccrass%2Cjson_pure%2Cmini_portile%2Cmini_portile2%2Cnet-scp%2Cpkg-config%2Cracc%2Cruby-maven%2Cweakling
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=SexpProcessor%2Cbcrypt%2Ccrass%2Cjson_pure%2Cmini_portile%2Cmini_portile2%2Cnet-scp%2Cpkg-config%2Cracc%2Cruby-maven%2Cweakling
+Query List: ["spruz", "net-ftp", "net-ssh", "maven-tools", "ruby-maven-libs"]
+Query Gemcutter Dependency Endpoint API: spruz,net-ftp,net-ssh,maven-tools,ruby-maven-libs
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=maven-tools%2Cnet-ftp%2Cnet-ssh%2Cruby-maven-libs%2Cspruz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=maven-tools%2Cnet-ftp%2Cnet-ssh%2Cruby-maven-libs%2Cspruz
+Query List: ["virtus", "net-protocol", "time", "needle", "jruby-pageant", "rbnacl-libsodium", "rbnacl", "bcrypt_pbkdf"]
+Query Gemcutter Dependency Endpoint API: virtus,net-protocol,time,needle,jruby-pageant,rbnacl-libsodium,rbnacl,bcrypt_pbkdf
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=bcrypt_pbkdf%2Cjruby-pageant%2Cneedle%2Cnet-protocol%2Crbnacl%2Crbnacl-libsodium%2Ctime%2Cvirtus
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=bcrypt_pbkdf%2Cjruby-pageant%2Cneedle%2Cnet-protocol%2Crbnacl%2Crbnacl-libsodium%2Ctime%2Cvirtus
+Query List: ["timeout", "io-wait", "ffi", "date", "descendants_tracker", "equalizer", "coercible", "axiom-types", "backports"]
+Query Gemcutter Dependency Endpoint API: timeout,io-wait,ffi,date,descendants_tracker,equalizer,coercible,axiom-types,backports
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=axiom-types%2Cbackports%2Ccoercible%2Cdate%2Cdescendants_tracker%2Cequalizer%2Cffi%2Cio-wait%2Ctimeout
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=axiom-types%2Cbackports%2Ccoercible%2Cdate%2Cdescendants_tracker%2Cequalizer%2Cffi%2Cio-wait%2Ctimeout
+Query List: ["ice_nine", "adamantium"]
+Query Gemcutter Dependency Endpoint API: ice_nine,adamantium
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=adamantium%2Cice_nine
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=adamantium%2Cice_nine
+Query List: ["memoizable"]
+Query Gemcutter Dependency Endpoint API: memoizable
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=memoizable
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=memoizable
+Query List: []
+Resolving dependencies...
+Using rake 13.0.6
+0:  rake (13.0.6) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/rake-13.0.6.gemspec
+Using concurrent-ruby 1.1.9
+Using minitest 5.15.0
+Using builder 3.2.4
+Using erubi 1.10.0
+Using racc 1.6.0
+Using crass 1.0.6
+Using rack 2.2.3
+Using bundler 2.3.4
+Using dotenv 2.7.6
+Using method_source 1.0.0
+Using thor 1.2.1
+Using zeitwerk 2.5.4
+0:  concurrent-ruby (1.1.9) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/concurrent-ruby-1.1.9.gemspec
+2:  builder (3.2.4) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/builder-3.2.4.gemspec
+Using i18n 1.10.0
+2:  i18n (1.10.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/i18n-1.10.0.gemspec
+Using tzinfo 2.0.4
+6:  rack (2.2.3) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/rack-2.2.3.gemspec
+8:  dotenv (2.7.6) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/dotenv-2.7.6.gemspec
+9:  method_source (1.0.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/method_source-1.0.0.gemspec
+Using rack-test 1.1.0
+11:  zeitwerk (2.5.4) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/zeitwerk-2.5.4.gemspec
+3:  erubi (1.10.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/erubi-1.10.0.gemspec
+12:  tzinfo (2.0.4) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/tzinfo-2.0.4.gemspec
+7:  bundler (2.3.4) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/bundler-2.3.4.gemspec
+14:  rack-test (1.1.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/rack-test-1.1.0.gemspec
+1:  minitest (5.15.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/minitest-5.15.0.gemspec
+5:  crass (1.0.6) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/crass-1.0.6.gemspec
+Using activesupport 7.0.2.2
+15:  activesupport (7.0.2.2) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/activesupport-7.0.2.2.gemspec
+4:  racc (1.6.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/racc-1.6.0.gemspec
+10:  thor (1.2.1) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/thor-1.2.1.gemspec
+Using nokogiri 1.13.3 (x86_64-darwin)
+0:  nokogiri (1.13.3) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/nokogiri-1.13.3-x86_64-darwin.gemspec
+Using rails-dom-testing 2.0.3
+Using loofah 2.14.0
+13:  rails-dom-testing (2.0.3) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/rails-dom-testing-2.0.3.gemspec
+2:  loofah (2.14.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/loofah-2.14.0.gemspec
+Using rails-html-sanitizer 1.4.2
+6:  rails-html-sanitizer (1.4.2) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/rails-html-sanitizer-1.4.2.gemspec
+Using actionview 7.0.2.2
+9:  actionview (7.0.2.2) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/actionview-7.0.2.2.gemspec
+Using actionpack 7.0.2.2
+11:  actionpack (7.0.2.2) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/actionpack-7.0.2.2.gemspec
+Using railties 7.0.2.2
+3:  railties (7.0.2.2) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/railties-7.0.2.2.gemspec
+Using dotenv-rails 2.7.6
+12:  dotenv-rails (2.7.6) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/dotenv-rails-2.7.6.gemspec
+Fetching stitchfix-env_management 0.5.0
+Installing stitchfix-env_management 0.5.0
+7:  stitchfix-env_management (0.5.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/stitchfix-env_management-0.5.0.gemspec
+Bundle complete! 1 Gemfile dependency, 26 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
