@@ -1,0 +1,26 @@
+fn2187 :: ~/src/slow-artifactory ‹main*› » ./test-rubygems.sh
+Removing pry
+Removing pry
+Successfully uninstalled pry-0.14.1
+INFO: Gemfile.rubygems.lock
+#################################
+INFO: Using bundler version 2.3.4
+#################################
+
+real	0m12.936s
+user	0m2.391s
+sys	0m4.059s
+INFO: Created installation log file rubygems-bundle-2.3.4-install.log
+Removing pry
+Removing pry
+Successfully uninstalled pry-0.14.1
+INFO: Gemfile.rubygems.lock
+#################################
+INFO: Using bundler version 2.3.5
+#################################
+
+real	0m12.978s
+user	0m2.421s
+sys	0m4.068s
+INFO: Created installation log file rubygems-bundle-2.3.5-install.log
+TEST END
