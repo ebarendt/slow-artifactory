@@ -1,0 +1,366 @@
+Running `bundle install --verbose` with bundler 2.3.5
+Found changes from the lockfile, re-resolving dependencies because the dependencies in your gemfile changed, you added a new platform to your gemfile
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/versions
+HTTP 404 Not Found https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/versions
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies
+Fetching gem metadata from https://stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/
+Query List: ["pry"]
+Query Gemcutter Dependency Endpoint API: pry
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=pry
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=pry
+Query List: ["coderay", "slop", "method_source", "win32console", "spoon", "ruby_parser", "yard"]
+Query Gemcutter Dependency Endpoint API: coderay,slop,method_source,win32console,spoon,ruby_parser,yard
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=coderay%2Cmethod_source%2Cruby_parser%2Cslop%2Cspoon%2Cwin32console%2Cyard
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=coderay%2Cmethod_source%2Cruby_parser%2Cslop%2Cspoon%2Cwin32console%2Cyard
+Query List: ["sexp_processor", "ParseTree", "hoe", "ffi", "erubis", "webrick"]
+Query Gemcutter Dependency Endpoint API: sexp_processor,ParseTree,hoe,ffi,erubis,webrick
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=ParseTree%2Cerubis%2Cffi%2Choe%2Csexp_processor%2Cwebrick
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=ParseTree%2Cerubis%2Cffi%2Choe%2Csexp_processor%2Cwebrick
+Query List: ["RubyInline", "SexpProcessor", "abstract", "rake", "rubyforge", "gemcutter"]
+Query Gemcutter Dependency Endpoint API: RubyInline,SexpProcessor,abstract,rake,rubyforge,gemcutter
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=RubyInline%2CSexpProcessor%2Cabstract%2Cgemcutter%2Crake%2Crubyforge
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=RubyInline%2CSexpProcessor%2Cabstract%2Cgemcutter%2Crake%2Crubyforge
+Query List: ["ZenTest", "json", "net-scp", "json_pure"]
+Query Gemcutter Dependency Endpoint API: ZenTest,json,net-scp,json_pure
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=ZenTest%2Cjson%2Cjson_pure%2Cnet-scp
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=ZenTest%2Cjson%2Cjson_pure%2Cnet-scp
+Query List: ["spruz", "net-ssh"]
+Query Gemcutter Dependency Endpoint API: spruz,net-ssh
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=net-ssh%2Cspruz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=net-ssh%2Cspruz
+Query List: ["needle", "jruby-pageant", "rbnacl-libsodium", "rbnacl", "bcrypt_pbkdf"]
+Query Gemcutter Dependency Endpoint API: needle,jruby-pageant,rbnacl-libsodium,rbnacl,bcrypt_pbkdf
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=bcrypt_pbkdf%2Cjruby-pageant%2Cneedle%2Crbnacl%2Crbnacl-libsodium
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/api/v1/dependencies?gems=bcrypt_pbkdf%2Cjruby-pageant%2Cneedle%2Crbnacl%2Crbnacl-libsodium
+Query List: []
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.5pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.5pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.5pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.5pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.0pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.0pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.1pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.1pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0pre5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0pre5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.7pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.7pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0pre5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0pre5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0pre6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0pre6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre9.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0pre9.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.4pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.4pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0pre3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0pre3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.3pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.3pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.4pre6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8pre8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.4pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.4pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.6pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.6pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.6pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.6pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.10pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.10pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12pre3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12pre3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.1pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.1pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.2pre1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.2pre1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.pre3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.pre3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.pre4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.pre4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.rc1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.rc1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.0.pre.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.0.pre.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.0.pre2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.0.pre2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.1.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.1.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.1.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.1.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.2.8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.3.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.3.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.4.8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.9.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.5.9.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.8.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.6.8.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.5.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.5.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.5.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.5.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.6.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.6.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.7.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.7.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.7.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.7.7.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.8.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.6.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.6.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.7.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.8.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.9.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.10.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.10.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.11.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.5.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.5.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.6.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.9.12.6.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.4.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.10.4.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.3.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.11.3.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.12.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.12.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.12.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.12.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.12.2.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.12.2.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.13.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.13.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.13.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.13.1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.14.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.14.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.14.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/pry-0.14.1.gemspec.rz
+Resolving dependencies...HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.1.rc1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.1.rc1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.2.rc1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.2.rc1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.3.rc1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.3.rc1.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.0.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.0.gemspec.rz
+HTTP GET https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.1.gemspec.rz
+HTTP 200 OK https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/quick/Marshal.4.8/coderay-1.1.1.gemspec.rz
+.
+Using bundler 2.3.5
+Using method_source 1.0.0
+0:  bundler (2.3.5) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/bundler-2.3.5.gemspec
+Using coderay 1.1.3
+1:  coderay (1.1.3) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/coderay-1.1.3.gemspec
+4:  method_source (1.0.0) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/method_source-1.0.0.gemspec
+Fetching pry 0.14.1
+Installing pry 0.14.1
+2:  pry (0.14.1) from /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/specifications/pry-0.14.1.gemspec
+Bundle complete! 1 Gemfile dependency, 4 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.

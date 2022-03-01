@@ -1,0 +1,128 @@
+fn2187 :: ~/src/slow-artifactory » ./test.sh
+Removing pry
+Gem 'pry' is not installed
+INFO: Gemfile.lock
+#################################
+INFO: Using bundler version 2.3.4
+#################################
+Bundler::Fetcher::FallbackError: Net::HTTPNotFound: https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/versions
+/Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/fetcher/downloader.rb:45:in `fetch'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/fetcher/compact_index.rb:136:in `call'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/compact_index_client/updater.rb:48:in `block in update'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/vendor/tmpdir/lib/tmpdir.rb:96:in `mktmpdir'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/compact_index_client/updater.rb:29:in `update'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/compact_index_client.rb:98:in `update'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/compact_index_client.rb:85:in `update_and_parse_checksums!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/fetcher/compact_index.rb:80:in `available?'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/fetcher/compact_index.rb:16:in `call'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/fetcher/compact_index.rb:16:in `block in compact_index_request'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/fetcher.rb:160:in `use_api'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/source/rubygems.rb:427:in `block in api_fetchers'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/source/rubygems.rb:427:in `select'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/source/rubygems.rb:427:in `api_fetchers'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/source/rubygems.rb:432:in `block in remote_specs'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/index.rb:9:in `build'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/source/rubygems.rb:431:in `remote_specs'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/source/rubygems.rb:131:in `specs'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:167:in `index_for'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:175:in `results_for'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:112:in `search_for'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:255:in `block in verify_gemfile_dependencies_are_found!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:252:in `each'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:252:in `verify_gemfile_dependencies_are_found!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:48:in `start'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/resolver.rb:23:in `resolve'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/definition.rb:269:in `resolve'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/definition.rb:180:in `resolve_remotely!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/installer.rb:280:in `resolve_if_needed'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/installer.rb:82:in `block in run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/process_lock.rb:12:in `block in lock'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/process_lock.rb:9:in `open'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/process_lock.rb:9:in `lock'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/installer.rb:71:in `run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/installer.rb:23:in `install'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/cli/install.rb:62:in `run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/cli.rb:255:in `block in install'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/settings.rb:131:in `temporary'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/cli.rb:254:in `install'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/cli.rb:31:in `dispatch'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/cli.rb:25:in `start'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/exe/bundle:48:in `block in <top (required)>'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/lib/bundler/friendly_errors.rb:103:in `with_friendly_errors'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.4/exe/bundle:36:in `<top (required)>'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/bin/bundle:25:in `load'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/bin/bundle:25:in `<main>'
+
+real	0m14.887s
+user	0m2.068s
+sys	0m4.103s
+INFO: Created installation log file bundle-2.3.4-install.log
+Removing pry
+Removing pry
+Successfully uninstalled pry-0.14.1
+INFO: Gemfile.lock
+#################################
+INFO: Using bundler version 2.3.5
+#################################
+Bundler::Fetcher::FallbackError: Net::HTTPNotFound: https://eric.barendt%40stitchfix.com@stitchfix01.jfrog.io/stitchfix01/api/gems/eng-gems/versions
+/Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/fetcher/downloader.rb:45:in `fetch'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/fetcher/compact_index.rb:126:in `call'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/compact_index_client/updater.rb:48:in `block in update'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/vendor/tmpdir/lib/tmpdir.rb:96:in `mktmpdir'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/compact_index_client/updater.rb:29:in `update'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/compact_index_client.rb:92:in `update'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/compact_index_client.rb:79:in `update_and_parse_checksums!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/fetcher/compact_index.rb:70:in `available?'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/fetcher/compact_index.rb:16:in `call'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/fetcher/compact_index.rb:16:in `block in compact_index_request'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/fetcher.rb:158:in `use_api'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/source/rubygems.rb:427:in `block in api_fetchers'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/source/rubygems.rb:427:in `select'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/source/rubygems.rb:427:in `api_fetchers'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/source/rubygems.rb:432:in `block in remote_specs'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/index.rb:9:in `build'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/source/rubygems.rb:431:in `remote_specs'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/source/rubygems.rb:131:in `specs'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:167:in `index_for'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:175:in `results_for'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:112:in `search_for'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:255:in `block in verify_gemfile_dependencies_are_found!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:252:in `each'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:252:in `verify_gemfile_dependencies_are_found!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:48:in `start'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/resolver.rb:23:in `resolve'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/definition.rb:269:in `resolve'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/definition.rb:180:in `resolve_remotely!'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/installer.rb:280:in `resolve_if_needed'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/installer.rb:82:in `block in run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/process_lock.rb:12:in `block in lock'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/process_lock.rb:9:in `open'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/process_lock.rb:9:in `lock'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/installer.rb:71:in `run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/installer.rb:23:in `install'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/cli/install.rb:62:in `run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/cli.rb:255:in `block in install'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/settings.rb:131:in `temporary'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/cli.rb:254:in `install'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/cli.rb:31:in `dispatch'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/cli.rb:25:in `start'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/exe/bundle:48:in `block in <top (required)>'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/lib/bundler/friendly_errors.rb:103:in `with_friendly_errors'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/lib/ruby/gems/3.0.0/gems/bundler-2.3.5/exe/bundle:36:in `<top (required)>'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/bin/bundle:25:in `load'
+  /Users/ericbarendt/.asdf/installs/ruby/3.0.3/bin/bundle:25:in `<main>'
+
+real	6m24.165s
+user	0m2.337s
+sys	0m4.186s
+INFO: Created installation log file bundle-2.3.5-install.log
+TEST END
+fn2187 :: ~/src/slow-artifactory »
